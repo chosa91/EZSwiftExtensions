@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 Add subsequent changes that you make in this section. 
+
 1. **Bool**
    - `public var toggled` in [[PR]](https://github.com/goktugyil/EZSwiftExtensions/pull/352) by *Khalian* 
 
@@ -19,11 +20,14 @@ Add subsequent changes that you make in this section.
    - `static func random() -> Float` in [[PR]](https://github.com/goktugyil/EZSwiftExtensions/pull/351) by *Khalian*
    - `static func random(within: Range<Float>) -> Float` in [[PR]](https://github.com/goktugyil/EZSwiftExtensions/pull/351) by *Khalian*
 
-5. **String**
+5. **Int**
+   - `static func random(within: Range<Int>) -> Int` in [[PR]](https://github.com/goktugyil/EZSwiftExtensions/pull/360) by *Khalian*
+
+6. **String**
    - `func urlDecoded() -> String` in [[PR]](https://github.com/goktugyil/EZSwiftExtensions/pull/358) by *Khalian*
    - `mutating func urlDecode() -> String` in [[PR]](https://github.com/goktugyil/EZSwiftExtensions/pull/358) by *Khalian*
 
-6. **UInt**
+7. **UInt**
  - `static gcd(_ firstNum:UInt, _ secondNum:UInt) -> UInt` in [[PR]](https://github.com/goktugyil/EZSwiftExtensions/pull/347) by *Khalian*
  - `static lcm(_ firstNum:UInt, _ secondNum:UInt) -> UInt` in [[PR]](https://github.com/goktugyil/EZSwiftExtensions/pull/347)by *Khalian*
 

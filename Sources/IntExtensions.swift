@@ -51,6 +51,12 @@ extension Int {
             return -1; //out of bound
         }
     }
+    
+    /// EZSE: Returns a random integer number in the range min...max, inclusive.
+    public static func random(within: Range<Int>) -> Int {
+        let delta = within.upperBound - within.lowerBound
+        return within.lowerBound + Int(arc4random_uniform(UInt32(delta)))
+    }
 }
 
 extension UInt {
